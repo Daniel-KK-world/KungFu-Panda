@@ -18,6 +18,23 @@ pygame.display.set_caption("Pong")
 clock = pygame.time.Clock()
 FPS = 30
 
+#Descender Class 
+class Drop():
+    def __init__(self):
+        pass
+    
+#Assecnder Class (Po)
+class Ascend():
+    def __init__(self):
+        pass 
+    
+class Power_ups():
+    def __init__(self):
+        pass
+    
+    
+
+
 #main game loop
 running = True 
 while running:
