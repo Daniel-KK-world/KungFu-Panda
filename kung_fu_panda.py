@@ -26,7 +26,7 @@ FPS = 30
 class Sticks:
     def __init__(self, x, y, width=20, height=600):
         self.rect = pygame.Rect(x, y, width, height)
-        self.color = (128, 128, 0) # brown 
+        self.color = (152, 251, 152) # pale green 
         
     def draw(self, screen):
         pygame.draw.rect(screen, self.color, self.rect)
@@ -34,6 +34,8 @@ class Sticks:
 sticks = [
     Sticks(100, 0),
     Sticks(200, 0),  # y is 0 to start at top
+    Sticks(300, 0),
+    Sticks(400, 0),
     Sticks(500, 0),
     Sticks(600, 0)
 ]
